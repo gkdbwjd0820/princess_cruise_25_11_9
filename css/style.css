@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url(common.css);
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.section_1{
+    position: relative;
+}
+
+.con_1{
+    width: 93%;
+    height: 60%;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+}
