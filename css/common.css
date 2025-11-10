@@ -1,7 +1,7 @@
 .mobile_wrap {
   max-width: 480px;
   width: 100%;
-  height: 700vh;
+  /* height: 700vh; */
   margin: 0 auto;
   background-color: #ffffff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -12,12 +12,16 @@
 
 header,
 .sec_2_title,
-.sec_3_write {
+.sec_3_write,
+.sec_6_con_wrap {
   padding: 0 20px;
 }
 
 header,
 .section_1,
-.section_2 {
+.section_2,
+.sec_5_title h3,
+.sec_6_title h3,
+.news_title_wrap {
   font-family: "Noto Sans KR", sans-serif;
 }

@@ -175,19 +175,152 @@ header {
 }
 
 .lines {
-  width: 40px;
+  width: 23%;
   position: absolute;
   top: 180px;
-  left: 50%;
+  left: 58%;
   transform: translateX(-50%);
 }
 
-.sec_4_con {
-  width: 40%;
+.sec_4_con img {
+  width: 43%;
 }
 
 .con_4_1 {
   position: absolute;
-  top: 240px;
-  left: 10px;
+  top: 254px;
+  left: 15px;
 }
+
+.con_4_2 {
+  position: absolute;
+  top: 481px;
+  left: 15px;
+}
+
+/* 섹션4하는중 */
+
+.section_5{
+  position: relative;
+  width: 100%;
+  padding-top: 166%;
+  background-color: #0f3e97;
+  overflow: hidden;
+}
+
+.sec_5_title h3{
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: -2px;
+}
+
+.sec_5_con_wrap{
+  position: absolute;
+  top: 156px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  object-fit: cover;
+  /* padding: 156px 27px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 21px;
+  row-gap: 18px;
+}
+
+/* 섹션5끝 */
+
+.section_6{
+  padding-top: 80px;
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+.sec_6_title h3{
+  transform: translateX(45%);
+  font-size: 26px;
+  font-weight: 600;
+  color: #0a1d36;
+  letter-spacing: -2px;
+}
+
+.sec_6_news{
+  padding-top: 50px;
+}
+
+.sec_6_con_wrap{
+  padding-bottom: 20px;
+}
+
+.news a{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 12px;
+}
+
+.news_title_wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 26%;
+}
+
+.news_title_wrap h4{
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -1px;
+}
+
+
+.day{
+  /* width: 100%; */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 125px;
+  /* padding-top: 10%; */
+}
+
+.date{
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13px;
+  color: #acacac;
+}
+
+.day img{
+  width: 30px;
+}
+
+.news_line{
+  margin-top: 12px;
+  border: 1px solid #0c3c78;
+  opacity: 0.2;
+}
+
+.sec_6_btn{
+  padding: 15.5px 21.5px;
+  margin: 0 auto;
+  background-color: #0f3e97;
+  text-align: center;
+}
+@media (min-width: 480px) {
+  .news_title_wrap h4{
+    margin-bottom: 45px;
+
+  }
+}
+
+
+
+footer{
+  margin-top: 80px;
+  background-color: #0f3e97;
+}
+
+
