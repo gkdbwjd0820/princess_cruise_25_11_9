@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="kr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Princess Crusie</title>
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -28,41 +35,110 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/main.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="mobile_wrap">
-        <header>
+      <header>
+        <div class="logo">
+          <a href="#">
+            <img src="img/header/princess_logo 1.png" alt="logo" />
+          </a>
+        </div>
+        <div class="icon">
+          <a href="#">
+            <img src="img/header/mdi_bell-outline.png" alt="icon" />
+          </a>
+        </div>
+      </header>
 
-            <div class="logo">
-                <a href="#">
-                    <img src="img/header/princess_logo 1.png" alt="logo">
-                </a>
-            </div>
-            <div class="icon">
-                <a href="#">
-                    <img src="img/header/mdi_bell-outline.png" alt="icon">
-                </a>
-            </div>
-            
-        </header>
+      <section class="section_1">
+        <div class="sec_1">
+          <img src="img/section_1/section_1 img.png" alt="" />
+        </div>
 
-        <section class="section_1">
-            <div class="sec_1">
-                <img src="img/section_1/section_1 img.png" alt="">
+        <div class="sec_1_con">
+          <div class="con_1">
+            <div class="con_1_1">
+              <p>일정검색</p>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="sec_1_con">
-                <div class="con_1">
-                    <div class="con_1_1">
-                       <p>일정검색</p> 
-                    </div>
+      <section class="section_2">
+        <div class="sec_2_title">
+          <h3>
+            당신의 여행<br />
+            스타일에 맞는 크루즈
+          </h3>
+        </div>
 
-                </div>
+        <div class="swiper travel_con">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide travel_box">
+              <img src="img/section_2/jp.png" alt="jp" />
+              <div class="travel_write">
+                <p>일본 크루즈</p>
+                <h3>힐링 크루즈</h3>
+                <h4>
+                  전통과 현대가 공존하는 바다 위 여정<br />
+                  벚꽃의 향기와 온천, 바다 위 여유를 느껴보세요.
+                </h4>
+              </div>
             </div>
-        </section>
+            <div class="swiper-slide travel_box">
+              <img src="img/section_2/eu.png" alt="eu" />
+              <div class="travel_write">
+                <p>유럽 크루즈</p>
+                <h3>클래식 낭만 크루즈</h3>
+                <h4>
+                  고대의 도시와 낭만적인 해안선을 따라,<br />
+                  매 순간이 예술이 되는 항해가 펼쳐집니다.
+                </h4>
+              </div>
+            </div>
+            <div class="swiper-slide travel_box">
+              <img src="img/section_2/al.png" alt="al" />
+              <div class="travel_write">
+                <p>알래스카 크루즈</p>
+                <h3>자연 모험 크루즈</h3>
+                <h4>
+                  거대한 빙하오 고래가 맞이하는 압도적인 자연<br />
+                  지구 끝의 순수한 바다를 향해 항해합니다.
+                </h4>
+              </div>
+            </div>
+            <div class="swiper-slide travel_box">
+              <img src="img/section_2/am.png" alt="am" />
+              <div class="travel_write">
+                <p>미주 & 기타 크루즈</p>
+                <h3>트렌디 크루즈</h3>
+                <h4>
+                  자유로운 항해, 다채로운 도시<br />
+                  당신의 라이프스타일에 가장 가까운 글로벌 크루즈
+                </h4>
+              </div>
+            </div>
+            <div class="swiper-slide travel_box">
+              <img src="img/section_2/au.png" alt="au" />
+              <div class="travel_write">
+                <p>호주 & 뉴질랜드 크루즈</p>
+                <h3>여유 모험 크루즈</h3>
+                <h4>
+                  햇살과 자연이 어우러진 남반구의 청명한 바다<br />
+                  숨겨진 섬과 와이너리, 그리고 자유로운 항해.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section_3">
+        <div class="sec_3_con">
+          <img src="img/section_3/sec3_img.png" alt="sec3_img" />
+        </div>
+      </section>
     </div>
-
-    
-</body>
+  </body>
 </html>

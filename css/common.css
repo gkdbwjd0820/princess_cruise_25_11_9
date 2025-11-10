@@ -10,6 +10,13 @@
   overflow: hidden;
 }
 
-header{
-	padding: 0 20px;
+header,
+.sec_2_title {
+  padding: 0 20px;
+}
+
+header,
+.section_1,
+.section_2 {
+  font-family: "Noto Sans KR", sans-serif;
 }

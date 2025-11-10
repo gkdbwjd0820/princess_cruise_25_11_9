@@ -1,45 +1,109 @@
 @import url(reset.css);
 @import url(common.css);
 
-header{
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.section_1{
-    position: relative;
+.section_1 {
+  position: relative;
 }
 
-.sec_1_con{
-    width: 93%;
-    height: 60%;
-    background-color: white;
-    margin: 0 auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    border-radius: 17px;
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 20;
+.sec_1_con {
+  width: 93%;
+  height: 60%;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 17px;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
 }
 
-.con_1{
-   padding: 15px;
+.con_1 {
+  padding: 15px;
 }
 
-.con_1_1{
-    /* padding: 22px; */
-    /* width: 100%; */
-    border: 1px solid #d9d9d9;
-    border-radius: 10px;
-    opacity: 0.5;
+.con_1_1 {
+  /* padding: 22px; */
+  /* width: 100%; */
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  opacity: 0.5;
 }
 
-.con_1_1 p{
-    font-size: 14px;
-    font-weight: 400;
-    color: #b9b9b9;
+.con_1_1 p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b9b9b9;
+}
+
+/* 섹션1하는중 */
+
+.sec_2_title {
+  padding-top: 50%;
+}
+
+.sec_2_title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 35px;
+  color: #0a1d36;
+}
+
+.travel_con {
+  margin-top: 40px;
+}
+
+.travel_box {
+  width: 66.41%;
+  height: 100%;
+  border: 0.5px solid #d9d9d9;
+  border-radius: 16px;
+}
+
+.travel_write {
+  padding: 15px 25px 15px 15px;
+}
+
+.travel_write p {
+  font-size: 10px;
+  font-weight: 500;
+  color: #b9b9b9;
+  letter-spacing: -1px;
+}
+
+.travel_write h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 26px;
+}
+
+.travel_write h4 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #939393;
+  padding-top: 10px;
+  letter-spacing: -1px;
+  line-height: 19px;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 17px;
+} */
+
+/* 섹션2 그림자가 걸림 */
+
+.section_3 {
+  padding-top: 20%;
 }
