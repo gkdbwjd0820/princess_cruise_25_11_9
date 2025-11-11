@@ -24,6 +24,8 @@ header,
 .sec_5_title h3,
 .sec_6_title h3,
 .news_title_wrap,
-.sec_6_btn_box a {
+.sec_6_btn_box a,
+.footer_con p,
+.footer_copy p {
   font-family: "Noto Sans KR", sans-serif;
 }
