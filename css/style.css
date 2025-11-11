@@ -16,7 +16,7 @@ header {
 
 .sec_1_con {
   width: 93%;
-  height: 60%;
+  height: 63%;
   background-color: white;
   margin: 0 auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -29,22 +29,67 @@ header {
 }
 
 .con_1 {
+  height: 100%;
   padding: 15px;
 }
 
 .con_1_1 {
-  /* padding: 22px; */
-  /* width: 100%; */
-  border: 1px solid #d9d9d9;
+  padding: 18px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(217, 217, 217, 0.5);
   border-radius: 10px;
-  opacity: 0.5;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.con_1_1 .left{
+  display: flex;
+  align-items: center;
+  gap: 14px; /* 달력 아이콘과 글자 간격 조절 */
 }
 
 .con_1_1 p {
   font-size: 14px;
   font-weight: 400;
   color: #b9b9b9;
+
 }
+
+.sec_1_btn{
+  /* padding-top: 15px; */
+  display: flex;
+  /* background-color: aqua; */
+  gap: 15px;
+}
+
+.sec_1_btn .btn_1{
+  flex: 1;
+  height: 57px;
+  border-radius: 10px;
+  background-color: #0f3e97;
+  font-size: 14px;
+  font-weight: 600;
+    border: unset;
+  /* color: white; */
+}
+.sec_1_btn .btn_2{
+  flex: 1;
+  height: 57px;
+  border-radius: 10px;
+  background-color: #ffbe3d;
+  font-size: 14px;
+  font-weight: 600;
+  border: unset;
+  /* color: white; */
+}
+
+.schedule a,
+.agency a{
+  color: white;
+}
+
 
 /* 섹션1하는중 */
 
@@ -174,28 +219,130 @@ header {
   transform: translateX(-50%);
 }
 
-.lines {
-  width: 23%;
+.lines img{
+  width: 48px;
+  height: auto;
   position: absolute;
   top: 180px;
-  left: 58%;
+  left: 50%;
   transform: translateX(-50%);
 }
 
-.sec_4_con img {
-  width: 43%;
+.sec_4_cons img {
+  width: 169px;
+  height: auto;
+}
+
+.sec_4_con{
+  position: relative;
 }
 
 .con_4_1 {
   position: absolute;
-  top: 254px;
-  left: 15px;
+  top: 264px;
+  left: 8px;
+}
+
+.title_4_1{
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.con_4_title h4{
+  width: 120px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 16px;
+  color: white;
 }
 
 .con_4_2 {
   position: absolute;
-  top: 481px;
-  left: 15px;
+  top: 490px;
+  right: 8px;
+}
+
+.title_4_2{
+  position: absolute;
+  top: 155px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.con_4_3 {
+  position: absolute;
+  top: 700px;
+  left: 8px;
+}
+
+.con_4_4 {
+  position: absolute;
+  top: 920px;
+  right: 8px;
+}
+
+.con_4_5 {
+  position: absolute;
+  top: 1120px;
+  left: 8px;
+}
+
+@media (min-width: 480px) {
+  .sec_4_cons img {
+    width: 200px;
+    height: auto;
+  }
+
+  .con_4_1 {
+    position: absolute;
+    top: 264px;
+    left: 15px;
+  }
+
+  .title_4_1{
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+
+  .con_4_2 {
+    position: absolute;
+    top: 490px;
+    right: 15px;
+  }
+
+  .title_4_2{
+    position: absolute;
+    top: 185px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .con_4_3 {
+    position: absolute;
+    top: 700px;
+    left: 15px;
+  }
+
+  .con_4_4 {
+    position: absolute;
+    top: 920px;
+    right: 15px;
+  }
+
+  .con_4_5 {
+    position: absolute;
+    top: 1120px;
+    left: 15px;
+  }
 }
 
 /* 섹션4하는중 */
@@ -304,23 +451,40 @@ header {
 }
 
 .sec_6_btn{
-  padding: 15.5px 21.5px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.sec_6_btn_box a{
+  padding: 15.5px 30px;
   margin: 0 auto;
   background-color: #0f3e97;
+  border-radius: 5px;
   text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
 }
+
+
 @media (min-width: 480px) {
   .news_title_wrap h4{
     margin-bottom: 45px;
-
   }
 }
 
 
 
 footer{
-  margin-top: 80px;
+  height: 183px;
+  margin-top: 100px;
   background-color: #0f3e97;
 }
 
 
+@media (min-width: 480px) {
+  footer {
+    height: 210px;
+  }
+}

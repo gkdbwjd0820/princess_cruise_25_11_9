@@ -20,8 +20,10 @@ header,
 header,
 .section_1,
 .section_2,
+.con_4_title,
 .sec_5_title h3,
 .sec_6_title h3,
-.news_title_wrap {
+.news_title_wrap,
+.sec_6_btn_box a {
   font-family: "Noto Sans KR", sans-serif;
 }
