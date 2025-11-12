@@ -292,7 +292,7 @@ header {
 
 .sec_3_write {
   position: absolute;
-  bottom: 50px;
+  bottom: 0;
   left: 0;
   padding-bottom: 80px;
 }
