@@ -226,7 +226,7 @@ header {
 /* 섹션1 */
 
 .section_2 {
-  padding-top: 200px;
+  padding-top: 230px;
 }
 
 .sec_2_title h3 {
@@ -506,13 +506,13 @@ header {
   top: 156px;
   left: 50%;
   transform: translateX(-50%);
-  width: 85%;
+  width: 80%;
   object-fit: cover;
   /* padding: 156px 27px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 21px;
-  row-gap: 18px;
+  column-gap: 24px;
+  row-gap: 24px;
 }
 
 /* 섹션5끝 */
@@ -536,7 +536,7 @@ header {
 }
 
 .sec_6_con_wrap {
-  padding-bottom: 20px;
+  padding-bottom: 12px;
 }
 
 .news a {
@@ -580,7 +580,13 @@ header {
 
 .news_line {
   margin-top: 12px;
-  border: 1px solid #0c3c78;
+  width: 100%;
+  height: 1px;
+  background: #0c3c78;
+  transform: scaleY(0.5); /* 세로로 50% 축소 */
+  transform-origin: bottom;
+  /* box-shadow: 0 0.5px 0 0 #0c3c78; */
+  /* border: 0.2px solid #0c3c78; */
   opacity: 0.2;
 }
 
