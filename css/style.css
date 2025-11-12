@@ -130,6 +130,9 @@
 /* 내비게이션아이콘바꾸기 */
 
 header {
+  /* position: fixed;
+  z-index: 500;
+  background-color: white; */
   max-width: 480px;
   width: 100%;
   height: 60px;

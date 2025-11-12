@@ -14,4 +14,23 @@ $(document).ready(function () {
       slideShadows: true,
     },
   });
+
+  // $(window).scroll(function () {
+  //   var pageY = $(window).scrollTop();
+  //   var fix = $(".section_4").offset().top;
+
+  //   if (pageY > 2258.88) {
+  //     $(".fix_section").css({
+  //       position: "fixed",
+  //       top: 0,
+  //       left: 0,
+  //     });
+  //   } else if (pageY < 2258.88) {
+  //     $(".fix_section").css({
+  //       position: "absolute",
+  //       top: 0,
+  //       left: 0,
+  //     });
+  //   }
+  // });
 });

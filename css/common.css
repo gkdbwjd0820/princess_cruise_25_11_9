@@ -29,3 +29,20 @@ header,
 .footer_copy p {
   font-family: "Noto Sans KR", sans-serif;
 }
+
+/* .fix_section {
+  position: fixed;
+  z-index: 50;
+  max-width: 480px;
+  height: 5000px;
+}
+
+.section_4,
+.section_5,
+.section_6,
+footer {
+  position: relative;
+  top: 2258.88px;
+  z-index: 999;
+  display: none;
+} */
