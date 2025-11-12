@@ -141,10 +141,6 @@ header {
   align-items: center;
 }
 
-.header {
-  width: 50%;
-}
-
 /* 헤더끝 */
 
 .section_1 {
@@ -296,7 +292,7 @@ header {
 
 .sec_3_write {
   position: absolute;
-  /* bottom: 200px; */
+  bottom: 50px;
   left: 0;
   padding-bottom: 80px;
 }
