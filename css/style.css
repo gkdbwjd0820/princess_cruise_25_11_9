@@ -141,6 +141,10 @@ header {
   align-items: center;
 }
 
+.header {
+  width: 50%;
+}
+
 /* 헤더끝 */
 
 .section_1 {
