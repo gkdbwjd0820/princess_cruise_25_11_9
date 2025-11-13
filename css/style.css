@@ -283,6 +283,50 @@ header {
 
 /* 섹션2 그림자가 걸림 */
 
+.add_section {
+  padding-top: 80px;
+}
+
+.add_con_wrap {
+  padding-top: 40px;
+}
+
+.add_con_1 h4 {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 20px;
+}
+
+.add_write {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.add_write p {
+  padding-top: 5px;
+  font-size: 12px;
+  color: #939393;
+  line-height: 16px;
+}
+
+.free {
+  padding-top: 35px;
+}
+
+.add_btn {
+  width: 38px;
+  height: 38px;
+  background-color: #0f3e97;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 섹션3시작 */
 .section_3 {
   position: relative;
   height: 98vh;
