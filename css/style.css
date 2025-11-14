@@ -403,13 +403,15 @@ input[type="date"] {
   line-height: 19px;
 }
 
-/* .swiper-slide img {
-  display: block;
-  width: 100%;
-  border-radius: 17px;
-} */
+.swiper-slide-shadow-left {
+  border-radius: 16px;
+}
 
-/* 섹션2 그림자가 걸림 */
+.swiper-slide-shadow-right {
+  border-radius: 16px;
+}
+
+/* 섹션2 완료 */
 
 .add_section {
   padding-top: 80px;
