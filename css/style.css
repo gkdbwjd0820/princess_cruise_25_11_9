@@ -199,10 +199,10 @@ input[type="date"] {
 
 .hidden-date {
   position: absolute;
-  top: 15px;
-  left: -15px;
+  top: 16px;
+  left: 15px;
   z-index: 100;
-  width: 100%;
+  width: 92%;
   padding: 18px 16px;
   display: flex;
   justify-content: space-between;
@@ -287,9 +287,9 @@ input[type="date"] {
 .hidden-date_2 {
   position: absolute;
   bottom: 73px;
-  left: -15px;
+  left: 15px;
   z-index: 100;
-  width: 100%;
+  width: 92%;
   padding: 18px 16px;
   display: flex;
   justify-content: space-between;
