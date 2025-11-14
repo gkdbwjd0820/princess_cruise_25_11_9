@@ -234,10 +234,10 @@ input[type="date"] {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
-.date-label p {
-  font-size: 14px;
+/* .date-label p {
+  font-size: 15px;
   color: #333;
-}
+} */
 
 .hidden-text {
   /* width: 93%; */
@@ -257,11 +257,12 @@ input[type="date"] {
   margin-bottom: 15px;
   /* opacity: 0; */
   outline: none;
+  font-size: 15px;
 }
 .hidden-text_2 {
   /* width: 93%; */
   position: absolute;
-  top: 164px;
+  top: 163px;
   left: 55px;
   z-index: 100;
   max-width: 100%;
@@ -276,6 +277,7 @@ input[type="date"] {
   margin-bottom: 15px;
   /* opacity: 0; */
   outline: none;
+  font-size: 15px;
 }
 
 .hidden-date_2 {
