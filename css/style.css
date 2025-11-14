@@ -289,6 +289,7 @@ input[type="date"] {
   bottom: 73px;
   left: -15px;
   z-index: 100;
+  width: 100%;
   padding: 18px 16px;
   display: flex;
   justify-content: space-between;
