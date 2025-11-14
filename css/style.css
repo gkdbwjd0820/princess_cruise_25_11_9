@@ -242,7 +242,7 @@ input[type="date"] {
 .hidden-text {
   /* width: 93%; */
   position: absolute;
-  top: 89px;
+  top: 88px;
   left: 55px;
   z-index: 100;
   max-width: 100%;
@@ -251,7 +251,7 @@ input[type="date"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgba(217, 217, 217, 0);
+  border: 1px solid rgba(217, 217, 217, 1);
   border-radius: 10px;
   cursor: pointer;
   margin-bottom: 15px;
@@ -262,7 +262,7 @@ input[type="date"] {
 .hidden-text_2 {
   /* width: 93%; */
   position: absolute;
-  top: 162px;
+  top: 161px;
   left: 55px;
   z-index: 100;
   max-width: 100%;
