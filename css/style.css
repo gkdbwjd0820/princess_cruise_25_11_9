@@ -197,7 +197,7 @@ input[type="date"] {
   font-size: 15px;
 } */
 
-.hidden-date {
+#hidden-date {
   position: absolute;
   top: 16px;
   left: 15px;
@@ -212,7 +212,6 @@ input[type="date"] {
   cursor: pointer;
   margin-bottom: 15px;
   opacity: 0;
-  /* background-color: #aacfff; */
 }
 
 .date-label {
@@ -231,14 +230,9 @@ input[type="date"] {
   transition: 0.2s ease;
 }
 
-.date-label:hover {
+/* .date-label:hover {
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* .date-label p {
-  font-size: 15px;
-  color: #333;
 } */
 
 .hidden-text {
@@ -381,8 +375,8 @@ input[type="date"] {
 }
 
 .travel_write p {
-  font-size: 10px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 400;
   color: #b9b9b9;
   letter-spacing: -1px;
 }
@@ -391,16 +385,16 @@ input[type="date"] {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: -1px;
-  line-height: 26px;
+  line-height: 28px;
 }
 
 .travel_write h4 {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 400;
   color: #939393;
   padding-top: 10px;
   letter-spacing: -1px;
-  line-height: 19px;
+  line-height: 17px;
 }
 
 .swiper-slide-shadow-left {
@@ -437,7 +431,7 @@ input[type="date"] {
 
 .add_write p {
   padding-top: 5px;
-  font-size: 12px;
+  font-size: 14px;
   color: #939393;
   line-height: 16px;
 }
@@ -563,12 +557,12 @@ input[type="date"] {
 }
 
 .con_4_title h4 {
-  width: 120px;
-  font-size: 12px;
+  width: 137px;
+  font-size: 14px;
   font-weight: 500;
   text-align: center;
   letter-spacing: -1px;
-  line-height: 16px;
+  line-height: 20px;
   color: white;
 }
 
@@ -654,6 +648,13 @@ input[type="date"] {
   }
 }
 
+@media (max-width: 400px) {
+  .con_4_title h4 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
 /* 섹션4하는중 */
 
 .section_5 {
@@ -726,7 +727,7 @@ input[type="date"] {
 }
 
 .news_title_wrap h4 {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 600;
   line-height: 18px;
   letter-spacing: -1px;
@@ -784,6 +785,12 @@ input[type="date"] {
 @media (min-width: 480px) {
   .news_title_wrap h4 {
     margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 435px) {
+  .news_title_wrap h4 {
+    font-size: 0.8rem;
   }
 }
 /* 섹션6끝 */

@@ -148,8 +148,7 @@
           <div class="sec_1_con">
             <div class="con_1">
               <div class="con_1_1">
-                <label class="date_label">
-                    
+                <label for="hidden-date">
                   <div class="left">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -164,21 +163,8 @@
                     </svg>
                     <p>일정검색</p>
                   </div>
-                  <!-- <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill="#000"
-                      fill-rule="evenodd"
-                      d="m8 10.207l3.854-3.853l-.707-.708L8 8.793L4.854 5.646l-.708.708z"
-                      clip-rule="evenodd"
-                    />
-                  </svg> -->
-                    <input type="date" name="reserve-date" class="hidden-date">
                 </label>
+                <input type="date" name="reserve-date" id="hidden-date" />
               </div>
               <div class="con_1_1">
                 <label class="date_label">
@@ -196,10 +182,15 @@
                     </svg>
                     <p>도착지</p>
                   </div>
-                  <input type="text" name="reserve-text" class="hidden-text" placeholder="도착지" />
+                  <input
+                    type="text"
+                    name="reserve-text"
+                    class="hidden-text"
+                    placeholder="도착지"
+                  />
                 </label>
               </div>
-              
+
               <div class="con_1_1">
                 <label class="date_label">
                   <div class="left">
@@ -216,7 +207,12 @@
                     </svg>
                     <p>출발지 / 포트</p>
                   </div>
-                  <input type="text" name="reserve-text" class="hidden-text_2" placeholder="출발지 / 포트" />
+                  <input
+                    type="text"
+                    name="reserve-text"
+                    class="hidden-text_2"
+                    placeholder="출발지 / 포트"
+                  />
                 </label>
               </div>
 
@@ -236,7 +232,11 @@
                     </svg>
                     <p>여행기간</p>
                   </div>
-                  <input type="date" name="reserve-date" class="hidden-date_2" />
+                  <input
+                    type="date"
+                    name="reserve-date"
+                    class="hidden-date_2"
+                  />
                 </label>
               </div>
 
